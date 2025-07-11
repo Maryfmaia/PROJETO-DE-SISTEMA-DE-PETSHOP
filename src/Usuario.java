@@ -57,7 +57,7 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return String.format("Usuario[id=%d, nome=%s, email=%s, telefone=%s, endereco=%s, dataNascimento=%s]", 
+        return String.format("id=%d, nome=%s, email=%s, telefone=%s, endereco=%s, dataNascimento=%s", 
                 id, nome, email, telefone, endereco, dataNascimento);
     }
 
